@@ -1,0 +1,46 @@
+.cell {
+    display: table-cell;
+    min-width: 250px;
+    max-width: 250px;
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header-cell {
+    font-weight: bold;
+}
+
+#paginatorContainer {
+    min-height: 80px;
+}
+
+.datepickerdemoBasicUsage {
+    /** Demo styles for mdCalendar. */
+}
+
+.datepickerdemoBasicUsage md-content {
+    padding-bottom: 200px;
+}
+
+.datepickerdemoBasicUsage .validation-messages {
+    font-size: 12px;
+    color: #dd2c00;
+    margin-left: 15px;
+}
+
+.list-group {
+    margin-bottom: -1px !important;
+}
+
+.list-group-item {
+    overflow-x: auto;
+    height: 45px !important;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.grey {
+    background-color: #eee !important;
+}
