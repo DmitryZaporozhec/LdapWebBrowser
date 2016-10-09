@@ -1,4 +1,4 @@
-package kursovoy.model;
+package org.ldapbrowser.model;
 
 /**
  * Created by zaporozhec on 10/9/16.

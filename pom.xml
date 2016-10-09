@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Kursovoy-2Kurs</groupId>
-    <artifactId>Kursovoy-2Kurs</artifactId>
+    <groupId>LdapWebBrowser</groupId>
+    <artifactId>LdapWebBrowser</artifactId>
     <version>1.0</version>
 
     <parent>
@@ -12,14 +12,7 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.2.1.RELEASE</version>
         <relativePath/>
-        <!-- lookup parent from repository -->
     </parent>
-
-    <!--<properties>-->
-    <!--<start-class>kursovoy.Application</start-class>-->
-    <!--<main.basedir>${basedir}/../..</main.basedir>-->
-    <!--<m2eclipse.wtp.contextRoot>/</m2eclipse.wtp.contextRoot>-->
-    <!--</properties>-->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -1,10 +1,10 @@
-package kursovoy.service.impl;
+package org.ldapbrowser.service.impl;
 
-import kursovoy.model.LdapConnectionConfig;
-import kursovoy.model.LdapNode;
-import kursovoy.model.ResponseCode;
-import kursovoy.model.WebResponse;
-import kursovoy.service.LdapService;
+import org.ldapbrowser.model.LdapConnectionConfig;
+import org.ldapbrowser.model.LdapNode;
+import org.ldapbrowser.model.ResponseCode;
+import org.ldapbrowser.model.WebResponse;
+import org.ldapbrowser.service.LdapService;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 

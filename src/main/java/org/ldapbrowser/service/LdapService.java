@@ -1,8 +1,8 @@
-package kursovoy.service;
+package org.ldapbrowser.service;
 
-import kursovoy.model.LdapConnectionConfig;
-import kursovoy.model.LdapNode;
-import kursovoy.model.WebResponse;
+import org.ldapbrowser.model.LdapConnectionConfig;
+import org.ldapbrowser.model.LdapNode;
+import org.ldapbrowser.model.WebResponse;
 
 import java.util.List;
 

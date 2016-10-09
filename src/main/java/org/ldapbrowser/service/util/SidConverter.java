@@ -1,4 +1,4 @@
-package kursovoy.service.util;
+package org.ldapbrowser.service.util;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

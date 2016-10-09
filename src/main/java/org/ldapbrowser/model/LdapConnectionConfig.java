@@ -1,4 +1,4 @@
-package kursovoy.model;
+package org.ldapbrowser.model;
 
 import java.io.Serializable;
 

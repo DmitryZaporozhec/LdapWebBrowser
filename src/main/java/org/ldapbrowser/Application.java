@@ -1,4 +1,4 @@
-package kursovoy;
+package org.ldapbrowser;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -21,7 +21,7 @@ import javax.servlet.Filter;
 import java.util.Locale;
 
 @SpringBootApplication
-@ComponentScan({"kursovoy"})
+@ComponentScan({"org.ldapbrowser"})
 @EnableAutoConfiguration
 @EnableCaching
 public class Application extends SpringBootServletInitializer {
