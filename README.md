@@ -8,5 +8,5 @@ To use:
 - mvn clean install
 - java -jar target/<JAR>
 
-Default port is 8181. to change put application ard --server.port=8383 for example
+Default port is 8181. To change the port put application arg  "--server.port=8383" for example.
 App is mapperd to the root url (http://localhost:8181/) 
