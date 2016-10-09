@@ -1,11 +1,11 @@
 package org.ldapbrowser.service.impl;
 
+import org.apache.log4j.Logger;
 import org.ldapbrowser.model.LdapConnectionConfig;
 import org.ldapbrowser.model.LdapNode;
 import org.ldapbrowser.model.ResponseCode;
 import org.ldapbrowser.model.WebResponse;
 import org.ldapbrowser.service.LdapService;
-import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
 import javax.naming.Context;
@@ -106,12 +106,8 @@ public class LdapServiceImpl implements LdapService {
             try {
                 results = ctx.search(config.getBaseDN(), config.getSearchFilter(), searchCtls);
             } catch (Exception sux) {
-                if ("connection closed".equalsIgnoreCase(sux.getMessage())) {
-                    ctx = null;
-                    connect(config);
-                    log.warn("Conection were closed. try to reconnect!");
-                    return search(config, controlsA);
-                } else throw sux;
+                ldapConnections.remove(config.hashCode());
+                throw sux;
             }
             while (results != null && results.hasMoreElements()) {
                 pageRowCount++;
